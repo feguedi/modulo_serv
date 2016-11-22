@@ -1,2 +1,2 @@
-# modulo_serv
+# Módulo de Servidor
 Módulo para control remoto para proyecto de domótica
