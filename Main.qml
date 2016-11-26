@@ -13,12 +13,18 @@ MouseArea {
 
 
 
-    //Image {
-    //    id: image1
-    //    width: 100
-    //    height: 100
-        //source: "qrc:/"
-    //}
+    Image {
+        id: image1
+        width: 700
+        height: 9
+        anchors.right: parent.right
+        anchors.rightMargin: 10
+        anchors.left: parent.left
+        anchors.leftMargin: 10
+        anchors.top: parent.top
+        anchors.topMargin: 46
+        source: "img/linea.svg"
+    }
     Column {
         id: col_Qro
         anchors.left: parent.left
@@ -45,18 +51,6 @@ MouseArea {
     }
 
     Column {
-        id: col_hora
-        anchors.right: parent.right
-        anchors.rightMargin: 325
-        anchors.left: parent.left
-        anchors.leftMargin: 325
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: 15
-        anchors.top: parent.top
-        anchors.topMargin: 15
-    }
-
-    Column {
         id: col_Jur
         anchors.right: parent.right
         anchors.rightMargin: 401
@@ -79,5 +73,17 @@ MouseArea {
             anchors.top: parent.top
             anchors.topMargin: 15
         }
+    }
+
+    Hora {
+        id: hora1
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 15
+        anchors.top: parent.top
+        anchors.topMargin: 15
+        anchors.right: parent.right
+        anchors.rightMargin: 325
+        anchors.left: parent.left
+        anchors.leftMargin: 325
     }
 }

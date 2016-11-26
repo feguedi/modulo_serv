@@ -2,6 +2,9 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>MainForm.ui.qml</file>
+        <file>Hora.qml</file>
+        <file>ClimaJur.qml</file>
+        <file>ClimaQro.qml</file>
     </qresource>
     <qresource prefix="/qml">
         <file>form1.qml</file>
@@ -11,42 +14,6 @@
     <qresource prefix="/img">
         <file>img/appium.svg</file>
         <file>img/linea.svg</file>
-        <file>img/clima/001lighticons-04.svg</file>
-        <file>img/clima/001lighticons-05.svg</file>
-        <file>img/clima/001lighticons-06.svg</file>
-        <file>img/clima/001lighticons-07.svg</file>
-        <file>img/clima/001lighticons-08.svg</file>
-        <file>img/clima/001lighticons-09.svg</file>
-        <file>img/clima/001lighticons-10.svg</file>
-        <file>img/clima/001lighticons-11.svg</file>
-        <file>img/clima/001lighticons-12.svg</file>
-        <file>img/clima/001lighticons-13.svg</file>
-        <file>img/clima/001lighticons-14.svg</file>
-        <file>img/clima/001lighticons-15.svg</file>
-        <file>img/clima/001lighticons-16.svg</file>
-        <file>img/clima/001lighticons-17.svg</file>
-        <file>img/clima/001lighticons-18.svg</file>
-        <file>img/clima/001lighticons-19.svg</file>
-        <file>img/clima/001lighticons-20.svg</file>
-        <file>img/clima/001lighticons-21.svg</file>
-        <file>img/clima/001lighticons-22.svg</file>
-        <file>img/clima/001lighticons-23.svg</file>
-        <file>img/clima/001lighticons-24.svg</file>
-        <file>img/clima/001lighticons-25.svg</file>
-        <file>img/clima/001lighticons-26.svg</file>
-        <file>img/clima/001lighticons-27.svg</file>
-        <file>img/clima/001lighticons-29.svg</file>
-        <file>img/clima/001lighticons-30.svg</file>
-        <file>img/clima/001lighticons-31.svg</file>
-        <file>img/clima/001lighticons-32.svg</file>
-        <file>img/clima/001lighticons-33.svg</file>
-        <file>img/clima/001lighticons-34.svg</file>
-        <file>img/clima/001lighticons-35.svg</file>
-        <file>img/clima/001lighticons-36.svg</file>
-        <file>img/clima/001lighticons-37.svg</file>
-        <file>img/clima/001lighticons-38.svg</file>
-        <file>img/clima/001lighticons-39.svg</file>
-        <file>img/clima/001lighticons-40.svg</file>
         <file>img/clima/01.svg</file>
         <file>img/clima/02.svg</file>
         <file>img/clima/03.svg</file>
@@ -56,5 +23,41 @@
         <file>img/clima/43.svg</file>
         <file>img/clima/45.svg</file>
         <file>img/clima/46.svg</file>
+        <file>img/clima/04.svg</file>
+        <file>img/clima/05.svg</file>
+        <file>img/clima/06.svg</file>
+        <file>img/clima/07.svg</file>
+        <file>img/clima/08.svg</file>
+        <file>img/clima/09.svg</file>
+        <file>img/clima/10.svg</file>
+        <file>img/clima/11.svg</file>
+        <file>img/clima/12.svg</file>
+        <file>img/clima/13.svg</file>
+        <file>img/clima/14.svg</file>
+        <file>img/clima/15.svg</file>
+        <file>img/clima/16.svg</file>
+        <file>img/clima/17.svg</file>
+        <file>img/clima/18.svg</file>
+        <file>img/clima/19.svg</file>
+        <file>img/clima/20.svg</file>
+        <file>img/clima/21.svg</file>
+        <file>img/clima/22.svg</file>
+        <file>img/clima/23.svg</file>
+        <file>img/clima/24.svg</file>
+        <file>img/clima/25.svg</file>
+        <file>img/clima/26.svg</file>
+        <file>img/clima/27.svg</file>
+        <file>img/clima/29.svg</file>
+        <file>img/clima/30.svg</file>
+        <file>img/clima/31.svg</file>
+        <file>img/clima/32.svg</file>
+        <file>img/clima/33.svg</file>
+        <file>img/clima/34.svg</file>
+        <file>img/clima/35.svg</file>
+        <file>img/clima/36.svg</file>
+        <file>img/clima/37.svg</file>
+        <file>img/clima/38.svg</file>
+        <file>img/clima/39.svg</file>
+        <file>img/clima/40.svg</file>
     </qresource>
 </RCC>
