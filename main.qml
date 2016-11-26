@@ -57,19 +57,13 @@ Window {
         }
     }
 
-    Tumbler {
-        id: tumbler1
-        height: 65
-        anchors.right: parent.right
-        anchors.rightMargin: 95
-        anchors.left: parent.left
-        anchors.leftMargin: 96
-        anchors.top: parent.top
-        anchors.topMargin: 46
-    }
-
     Connections {
         target: button1
         onClicked: Qt.quit();
+    }
+
+    Connections {
+        target: button2
+        onClicked: print("clicked")
     }
 }

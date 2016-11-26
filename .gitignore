@@ -98,3 +98,6 @@ CMakeLists.txt.user
 # Binaries
 *.dll
 *.exe
+
+# IDEA
+.idea/
