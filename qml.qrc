@@ -10,6 +10,9 @@
         <file>form1.qml</file>
         <file>Form2.qml</file>
         <file>Main.qml</file>
+        <file>Luz.qml</file>
+        <file>Volumen.qml</file>
+        <file>Cortinas.qml</file>
     </qresource>
     <qresource prefix="/img">
         <file>img/appium.svg</file>
@@ -59,5 +62,15 @@
         <file>img/clima/38.svg</file>
         <file>img/clima/39.svg</file>
         <file>img/clima/40.svg</file>
+        <file>img/clima.png</file>
+        <file>img/luz.png</file>
+        <file>img/ventana.png</file>
+        <file>img/bocina.png</file>
+        <file>img/gota.png</file>
+        <file>img/thermometer.png</file>
+        <file>img/clima/default.svg</file>
+    </qresource>
+    <qresource prefix="/js">
+        <file>js/luz.js</file>
     </qresource>
 </RCC>

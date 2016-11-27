@@ -22,7 +22,7 @@ MouseArea {
         anchors.left: parent.left
         anchors.leftMargin: 6
         anchors.top: parent.top
-        anchors.topMargin: 56
+        anchors.topMargin: 61
         font.pointSize: 16
         verticalAlignment: Text.AlignVCenter
         horizontalAlignment: Text.AlignHCenter
@@ -34,7 +34,7 @@ MouseArea {
         y: 55
         text: qsTr("tmp_2")
         Layout.fillWidth: false
-        anchors.topMargin: 90
+        anchors.topMargin: 106
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
@@ -50,7 +50,7 @@ MouseArea {
         x: 6
         y: 49
         text: qsTr("tmp_3")
-        anchors.topMargin: 124
+        anchors.topMargin: 151
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
@@ -67,7 +67,7 @@ MouseArea {
         x: 12
         y: 47
         text: qsTr("tmp_4")
-        anchors.topMargin: 158
+        anchors.topMargin: 196
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
@@ -84,7 +84,7 @@ MouseArea {
         x: 8
         y: 53
         text: qsTr("tmp_5")
-        anchors.topMargin: 192
+        anchors.topMargin: 241
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
@@ -101,7 +101,7 @@ MouseArea {
         x: 16
         y: 58
         text: qsTr("tmp_6")
-        anchors.topMargin: 226
+        anchors.topMargin: 286
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
@@ -118,7 +118,7 @@ MouseArea {
         x: 6
         y: 65
         text: qsTr("tmp_7")
-        anchors.topMargin: 260
+        anchors.topMargin: 331
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
@@ -135,41 +135,7 @@ MouseArea {
         x: 6
         y: 64
         text: qsTr("tmp_8")
-        anchors.topMargin: 294
-        horizontalAlignment: Text.AlignHCenter
-        anchors.left: parent.left
-        anchors.rightMargin: 5
-        font.pointSize: 16
-        anchors.leftMargin: 6
-        anchors.top: parent.top
-        Layout.fillWidth: false
-        verticalAlignment: Text.AlignVCenter
-        anchors.right: parent.right
-    }
-
-    Label {
-        id: tmp_9
-        x: -1
-        y: 54
-        text: qsTr("tmp_9")
-        anchors.topMargin: 328
-        horizontalAlignment: Text.AlignHCenter
-        anchors.left: parent.left
-        anchors.rightMargin: 5
-        font.pointSize: 16
-        anchors.leftMargin: 6
-        anchors.top: parent.top
-        verticalAlignment: Text.AlignVCenter
-        Layout.fillWidth: false
-        anchors.right: parent.right
-    }
-
-    Label {
-        id: tmp_10
-        x: 4
-        y: 62
-        text: qsTr("tmp_10")
-        anchors.topMargin: 362
+        anchors.topMargin: 376
         horizontalAlignment: Text.AlignHCenter
         anchors.left: parent.left
         anchors.rightMargin: 5
