@@ -11,47 +11,32 @@ MouseArea {
     y: 0
     width: 720
     height: 430
-    property alias climaQro: climaQro
-    property alias climaJur: climaJur
-    property alias hora: hora
+//    property alias climaQro: climaQro
+//    property alias climaJur: climaJur
+//    property alias hora: hora
 
-    Hora{ }
-    ClimaJur { }
-    ClimaQro { }
-
-    Hora {
+    Hora{
         id: hora
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: 15
-        anchors.top: parent.top
-        anchors.topMargin: 15
-        anchors.right: parent.right
-        anchors.rightMargin: 361
-        anchors.left: parent.left
-        anchors.leftMargin: 361
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
     }
-
     ClimaJur {
         id: climaJur
         anchors.right: parent.right
         anchors.rightMargin: 423
         anchors.left: parent.left
         anchors.leftMargin: 50
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: 15
-        anchors.top: parent.top
-        anchors.topMargin: 15
+        anchors.verticalCenter: parent.verticalCenter
     }
 
     ClimaQro {
         id: climaQro
+        anchors.verticalCenter: parent.verticalCenter
         anchors.right: parent.right
         anchors.rightMargin: 50
         anchors.left: parent.left
-        anchors.leftMargin: 422
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: 15
-        anchors.top: parent.top
-        anchors.topMargin: 15
+        anchors.leftMargin: 423
+
     }
+
 }

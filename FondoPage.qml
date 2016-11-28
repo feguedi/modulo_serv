@@ -95,7 +95,22 @@ ApplicationWindow {
 
     StackView {
         id: contenido
-        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.fill: parent
+
+        Column {
+            MouseArea {
+                id: ventanaArea
+            }
+            MouseArea {
+                id: volumenArea
+            }
+            MouseArea {
+                id: luzArea
+            }
+            MouseArea {
+                id: humtempArea
+            }
+        }
 
     }
 
