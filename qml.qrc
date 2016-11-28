@@ -5,6 +5,8 @@
         <file>Hora.qml</file>
         <file>ClimaJur.qml</file>
         <file>ClimaQro.qml</file>
+        <file>img/cortina_abierta.png</file>
+        <file>img/cortina_cerrada.png</file>
     </qresource>
     <qresource prefix="/qml">
         <file>form1.qml</file>
@@ -13,6 +15,7 @@
         <file>Luz.qml</file>
         <file>Volumen.qml</file>
         <file>Cortinas.qml</file>
+        <file>FondoPage.qml</file>
     </qresource>
     <qresource prefix="/img">
         <file>img/appium.svg</file>

@@ -6,64 +6,30 @@ import QtQuick.Extras 1.4
 import QtQuick.Layouts 1.3
 
 Window {
-    id: window1
+    id: window
     visible: true
-    width: 640
+    width: 800
     height: 480
-    color: Material.color(Material.Amber)
     Material.theme: Material.DeepOrange
     Material.accent: Material.Purple
 
-    title: qsTr("Material Design")    
-    Column {
-        anchors.centerIn: parent
-
-        RadioButton { text: qsTr("Small") }
-        RadioButton { text: qsTr("Medium"); checked: true }
-        RadioButton { text: qsTr("Large") }
-
-        Switch {
-            id: switch1
-            text: qsTr("Sí")
-        }
+    StackLayout {
+        id: swipeView
+        anchors.left: swipeView.width
     }
 
-    ToolBar {
-        id: toolBar1
-        x: 164
-        y: 411
-        width: 313
-        height: 40
+    TabBar {
+        id: tabBar
+        height: 42
+        anchors.bottom: parent.bottom
+        anchors.left: menu.right
+        anchors.right: parent.right
+        currentIndex: swipeView.currentIndex
+        TabButton {
 
-        Button {
-            id: button1
-            x: 0
-            y: 0
-            text: qsTr("Ola")
-        }
-
-        Button {
-            id: button2
-            x: 106
-            y: 0
-            text: qsTr("Ke")
-        }
-
-        Button {
-            id: button3
-            x: 212
-            y: 0
-            text: qsTr("Ase")
         }
     }
-
-    Connections {
-        target: button1
-        onClicked: Qt.quit();
-    }
-
-    Connections {
-        target: button2
-        onClicked: print("clicked")
-    }
+/*
+  Seguir ejemplo de https://www.youtube.com/watch?v=hJKVb7WpQ_c
+*/
 }

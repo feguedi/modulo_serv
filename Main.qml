@@ -2,6 +2,8 @@ import QtQuick 2.0
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.0
 import QtQuick.Extras 1.4
+import QtQuick.Layouts 1.3
+import QtQuick.Controls.Universal 2.0
 
 MouseArea {
     id: mouseArea1
@@ -9,28 +11,32 @@ MouseArea {
     y: 0
     width: 720
     height: 430
+    property alias climaQro: climaQro
+    property alias climaJur: climaJur
+    property alias hora: hora
 
-
-
+    Hora{ }
+    ClimaJur { }
+    ClimaQro { }
 
     Hora {
-        id: hora1
+        id: hora
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 15
         anchors.top: parent.top
         anchors.topMargin: 15
         anchors.right: parent.right
-        anchors.rightMargin: 325
+        anchors.rightMargin: 361
         anchors.left: parent.left
-        anchors.leftMargin: 325
+        anchors.leftMargin: 361
     }
 
     ClimaJur {
-        id: climaJur1
+        id: climaJur
         anchors.right: parent.right
-        anchors.rightMargin: 401
+        anchors.rightMargin: 423
         anchors.left: parent.left
-        anchors.leftMargin: 19
+        anchors.leftMargin: 50
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 15
         anchors.top: parent.top
@@ -38,11 +44,11 @@ MouseArea {
     }
 
     ClimaQro {
-        id: climaQro1
+        id: climaQro
         anchors.right: parent.right
-        anchors.rightMargin: 19
+        anchors.rightMargin: 50
         anchors.left: parent.left
-        anchors.leftMargin: 401
+        anchors.leftMargin: 422
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 15
         anchors.top: parent.top

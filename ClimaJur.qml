@@ -11,11 +11,8 @@ MouseArea {
     Label {
         id: lbl_Jur
         text: qsTr("Juriquilla")
+        anchors.horizontalCenter: parent.horizontalCenter
         font.pointSize: 22
-        anchors.right: parent.right
-        anchors.rightMargin: 136
-        anchors.left: parent.left
-        anchors.leftMargin: 136
         anchors.top: parent.top
         anchors.topMargin: 5
         verticalAlignment: Text.AlignVCenter
@@ -27,9 +24,12 @@ MouseArea {
     Rectangle {
         id: rec_1
         x: 0
-        y: 51
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 304
+        anchors.top: parent.top
+        anchors.topMargin: 51
 
 
         Label {
@@ -50,8 +50,7 @@ MouseArea {
 
         Image {
             id: img_1
-            anchors.right: parent.right
-            anchors.rightMargin: 226
+            width: 45
             anchors.left: parent.left
             anchors.leftMargin: 29
             anchors.bottom: parent.bottom
@@ -65,9 +64,14 @@ MouseArea {
     Rectangle {
         id: rec_2
         x: 0
-        y: 96
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        anchors.topMargin: 96
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 259
+        anchors.rightMargin: -1
+        anchors.right: parent.right
 
         Label {
             id: lbl_2
@@ -87,8 +91,7 @@ MouseArea {
 
         Image {
             id: img_2
-            anchors.right: parent.right
-            anchors.rightMargin: 226
+            width: 45
             anchors.left: parent.left
             anchors.leftMargin: 29
             anchors.bottom: parent.bottom
@@ -102,36 +105,40 @@ MouseArea {
     Rectangle {
         id: rec_3
         x: 0
-        y: 141
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        anchors.topMargin: 141
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 214
 
         Label {
             id: lbl_3
             text: qsTr("{0}° / {1}%")
-            anchors.right: parent.right
-            anchors.bottomMargin: 8
-            anchors.topMargin: 9
-            font.pointSize: 16
             anchors.top: parent.top
+            anchors.topMargin: 9
             anchors.bottom: parent.bottom
+            anchors.bottomMargin: 8
             anchors.left: parent.left
+            anchors.leftMargin: 102
+            anchors.right: parent.right
             anchors.rightMargin: 102
+            anchors.verticalCenter: parent.verticalCenter
+            anchors.horizontalCenter: parent.horizontalCenter
+            font.pointSize: 16
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
-            anchors.leftMargin: 102
         }
 
         Image {
             id: img_3
-            anchors.right: parent.right
+            width: 45
             source: "img/clima/default.svg"
             anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
-            anchors.rightMargin: 226
             anchors.leftMargin: 29
         }
     }
@@ -139,36 +146,40 @@ MouseArea {
     Rectangle {
         id: rec_4
         x: 0
-        y: 186
-        width: 300
+        width: 249
         height: 45
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 169
+        anchors.top: parent.top
+        anchors.topMargin: 186
 
         Label {
             id: lbl_4
             text: qsTr("{0}° / {1}%")
             anchors.right: parent.right
-            anchors.bottomMargin: 8
-            anchors.topMargin: 9
-            font.pointSize: 16
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
+            anchors.rightMargin: 102
             anchors.left: parent.left
+            anchors.leftMargin: 102
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 8
+            anchors.top: parent.top
+            anchors.topMargin: 9
+            anchors.horizontalCenter: parent.horizontalCenter
+            font.pointSize: 16
             verticalAlignment: Text.AlignVCenter
             horizontalAlignment: Text.AlignHCenter
-            anchors.rightMargin: 102
-            anchors.leftMargin: 102
         }
 
         Image {
             id: img_4
-            anchors.right: parent.right
+            width: 45
             source: "img/clima/default.svg"
             anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
-            anchors.rightMargin: 226
             anchors.leftMargin: 29
         }
     }
@@ -176,9 +187,12 @@ MouseArea {
     Rectangle {
         id: rec_5
         x: 0
-        y: 231
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 125
+        anchors.top: parent.top
+        anchors.topMargin: 230
 
         Label {
             id: lbl_5
@@ -198,14 +212,13 @@ MouseArea {
 
         Image {
             id: img_5
-            anchors.right: parent.right
+            width: 45
             source: "img/clima/default.svg"
             anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
-            anchors.rightMargin: 226
             anchors.leftMargin: 29
         }
     }
@@ -213,9 +226,12 @@ MouseArea {
     Rectangle {
         id: rec_6
         x: 0
-        y: 276
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 79
+        anchors.top: parent.top
+        anchors.topMargin: 276
 
         Label {
             id: lbl_6
@@ -235,14 +251,13 @@ MouseArea {
 
         Image {
             id: img_6
-            anchors.right: parent.right
+            width: 45
             source: "img/clima/default.svg"
             anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
-            anchors.rightMargin: 226
             anchors.leftMargin: 29
         }
     }
@@ -250,9 +265,12 @@ MouseArea {
     Rectangle {
         id: rec_7
         x: 0
-        y: 321
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 34
+        anchors.top: parent.top
+        anchors.topMargin: 321
 
         Label {
             id: lbl_7
@@ -272,14 +290,13 @@ MouseArea {
 
         Image {
             id: img_7
-            anchors.right: parent.right
+            width: 45
             source: "img/clima/default.svg"
             anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
-            anchors.rightMargin: 226
             anchors.leftMargin: 29
         }
     }
@@ -287,9 +304,12 @@ MouseArea {
     Rectangle {
         id: rec_8
         x: 0
-        y: 366
-        width: 300
-        height: 45
+        width: 249
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: -11
+        anchors.top: parent.top
+        anchors.topMargin: 366
 
         Label {
             id: lbl_8
@@ -309,14 +329,13 @@ MouseArea {
 
         Image {
             id: img_8
-            anchors.right: parent.right
+            width: 45
             source: "img/clima/default.svg"
             anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
-            anchors.rightMargin: 226
             anchors.leftMargin: 29
         }
     }
@@ -324,3 +343,4 @@ MouseArea {
 
 
 }
+
