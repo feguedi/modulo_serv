@@ -14,3 +14,6 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 ICON = img/icono.ico
+
+DISTFILES += \
+    Princ.qml

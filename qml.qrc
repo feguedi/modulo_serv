@@ -12,7 +12,6 @@
     <qresource prefix="/qml">
         <file>form1.qml</file>
         <file>Form2.qml</file>
-        <file>Main.qml</file>
         <file>Luz.qml</file>
         <file>Volumen.qml</file>
         <file>Cortinas.qml</file>
