@@ -5,8 +5,8 @@ import QtQuick.Extras 1.4
 import QtQuick.Layouts 1.3
 import QtQuick.Controls.Universal 2.0
 
-MouseArea {
-    id: mouseArea1
+Pane {
+    id: pane1
     x: 0
     y: 0
     width: 720

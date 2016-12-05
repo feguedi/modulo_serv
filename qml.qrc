@@ -7,6 +7,7 @@
         <file>ClimaQro.qml</file>
         <file>img/cortina_abierta.png</file>
         <file>img/cortina_cerrada.png</file>
+        <file>img/icono.ico</file>
     </qresource>
     <qresource prefix="/qml">
         <file>form1.qml</file>

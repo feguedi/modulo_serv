@@ -39,7 +39,7 @@ Rectangle {
     }
 
     Label {
-        id: lbl_ant
+        id: lbl_ab_dia
         text: qsTr("{0}")
         anchors.top: abiertasArea.bottom
         anchors.topMargin: 6
@@ -117,7 +117,7 @@ Rectangle {
     }
 
     Label {
-        id: lbl_cerr
+        id: lbl_cerr_dia
         x: 560
         text: qsTr("{0}")
         anchors.top: cerradasArea.bottom
